@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Soap Beauty Studio | Pure Radiance</title>
+    <style>
+        /* --- MINIMALIST BEAUTY THEME --- */
+        :root {
+            --studio-white: #FFFFFF;
+            --soft-cream: #F9F7F2;
+            --silk-grey: #E5E5E5;
+            --deep-slate: #2D3436;
+            --accent-gold: #C5A059;
+        }
+
+        /* --- RESET & TYPOGRAPHY --- */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'optima', 'Didot', 'serif'; /* High-end fashion feel */
+            background-color: var(--soft-cream);
+            color: var(--deep-slate);
+            line-height: 1.8;
+        }
+
+        /* --- HEADER & NAVIGATION --- */
+        header {
+            background-color: var(--studio-white);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--silk-grey);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-style: italic;
+            font-size: 0.85rem;
+            color: var(--accent-gold);
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: var(--studio-white);
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            border-bottom: 1px solid var(--silk-grey);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: var(--deep-slate);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* --- ADSENSE PLACEMENTS --- */
+        .ad-container {
+            width: 100%;
+            max-width: 320px;
+            height: 100px;
+            background-color: #fff;
+            margin: 30px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #eee;
+            color: #ccc;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+        }
+
+        /* --- CONTENT SECTION --- */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .studio-intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .studio-image {
+            width: 100%;
+            height: 300px;
+            background-color: var(--silk-grey);
+            margin-bottom: 20px;
+            /* Placeholder: Replace with your studio interior */
+            background-image: url('https://images.unsplash.com/photo-1552668693-d0738e00eca8?auto=format&fit=crop&w=600&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .btn-booking {
+            display: inline-block;
+            border: 1px solid var(--deep-slate);
+            padding: 12px 30px;
+            text-decoration: none;
+            color: var(--deep-slate);
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        .btn-booking:hover {
+            background-color: var(--deep-slate);
+            color: white;
+        }
+
+        /* --- BLOG / SERVICES CARDS --- */
+        .service-card {
+            background: var(--studio-white);
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px solid #f0f0f0;
+        }
+
+        .service-img {
+            width: 100%;
+            height: 200px;
+            background-color: #f5f5f5;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        .service-title {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .service-text {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        /* --- FOOTER (Crucial for AdSense Policy) --- */
+        footer {
+            background: var(--studio-white);
+            text-align: center;
+            padding: 60px 20px;
+            border-top: 1px solid var(--silk-grey);
+        }
+
+        .footer-links a {
+            color: #999;
+            text-decoration: none;
+            font-size: 0.7rem;
+            margin: 0 10px;
+            text-transform: uppercase;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 480px) {
+            h1 { font-size: 1.4rem; }
+            .container { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>White Soap</h1>
+        <div class="tagline">Beauty Studio & Skin Sanctuary</div>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Shop</a>
+        <a href="#">Journal</a>
+    </nav>
+
+    <div class="container">
+        
+        <div class="studio-intro">
+            <div class="studio-image"></div>
+            <h2>Pure. Minimal. You.</h2>
+            <p>We believe in the power of simplicity. Our treatments are designed to bring out your natural glow using organic ingredients and modern techniques.</p>
+            <a href="https://www.instagram.com/nate_drip4fun" class="btn-booking">Follow our Journey</a>
+        </div>
+
+        <div class="ad-container">
+            <span>Advertisement</span>
+        </div>
+
+        <div class="service-card">
+            <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&q=80'); background-size: cover;"></div>
+            <h3 class="service-title">The Silk Facial</h3>
+            <p class="service-text">Learn about our signature 60-minute deep cleansing ritual that uses cold-pressed botanical oils to restore the skin barrier.</p>
+            <a href="#" style="color: var(--accent-gold); font-size: 0.8rem; text-decoration: none;">Read More →</a>
+        </div>
+
+        <div class="service-card">
+            <div class="service-img" style="background-image: url('https://images.unsplash.com/photo-1600857062241-98e5dba7f214?auto=format&fit=crop&w=600&q=80'); background-size: cover;"></div>
+            <h3 class="service-title">Handcrafted Rituals</h3>
+            <p class="service-text">Discover why our small-batch white soaps are cured for six weeks to ensure the most gentle lather for sensitive skin.</p>
+            <a href="#" style="color: var(--accent-gold); font-size: 0.8rem; text-decoration: none;">Read More →</a>
+        </div>
+
+        <div class="ad-container">
+            <span>Advertisement</span>
+        </div>
+
+    </div>
+
+    <footer>
+        <p style="letter-spacing: 2px; font-size: 0.8rem; margin-bottom: 20px;">WHITE SOAP BEAUTY STUDIO</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+        </div>
+        <p style="margin-top: 20px; font-size: 0.6rem; color: #ccc;">&copy; 2026 White Soap Studio. All content is original and protected.</p>
+    </footer>
+
+</body>
+</html>
